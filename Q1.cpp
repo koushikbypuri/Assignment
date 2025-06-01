@@ -80,7 +80,7 @@ int main() {
     int cap;
     std::cout << "Enter cache capacity: ";
     std::cin >> cap;
-    std::cin.ignore(); // clear newline
+    std::cin.ignore();
 
     LRUCache lru(cap);
     std::string line;
